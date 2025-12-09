@@ -38,3 +38,16 @@ struct GalleryDetailTab: View {
         }
     }
 }
+
+
+
+//@State var routes = [String]()
+//NavigationStack(path: $routes) {
+    //VStack{
+        //NavigationLink("StringView", value: "String view")
+        //NavigationLink("Intview", value: "Int view")
+    //}.navigationDestination(for: String.self) { stringValue in
+        //StringView(title: stringValue)
+    //}
+        
+//}

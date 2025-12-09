@@ -14,7 +14,7 @@ struct ContentView: View {
 
             GalleryDetailTab()
                 .tabItem {
-                    Label("No gallery", systemImage: "photo")
+                    Label(appData.selectedGallery?.name ?? "Select gallery", systemImage: "photo")
                 }
         }
     }
